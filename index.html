@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mini-spotify</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>hello test</h1>
-    <p>Test</p>
+    <header>
+        <h1>My Playlist by Mouny</h1>
+    </header>
+    <section>
+        <img src="img/img_playlist/pochette/grand-corps-malade.jpg" alt="pochette chanteur">
+        <div id="description">
+            <h2>Vous écoutez en moment :</h2>
+            <p>grand corps malade</p>
+            <p>la chanson de grand corps malade</p>
+            <p>Grand corps malade is Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio, consequuntur iste dolorem cum quas vel perspicia.</p>
+        </div>
+    </section>
+    <section>
+        <audio controls>
+            <source src="audio_single/grand-corps-malade.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+    <section>
+        <div data-single="gcm">
+            <img src="img/img_playlist/pp/pp_grand-corps-malade.jpg" alt="chanteur">
+            <p>grand corps malade</p>
+        </div>
+        <div data-single="jd">
+            <img src="img/img_playlist/pp/pp_julien-dore.jpg" alt="chanteur">
+            <p>julien dore</p>
+        </div>
+        <div data-single="madonna">
+            <img src="img/img_playlist/pp/pp_madonna.jpg" alt="chanteur">
+            <p>madonna</p>
+        </div>
+        <div data-single="mc">
+            <img src="img/img_playlist/pp/pp_mariah-carey.jpeg" alt="chanteur">
+            <p>mariah carey</p>
+        </div>
+        <div data-single="ts">
+            <img src="img/img_playlist/pp/pp_taylor-swift.jpg" alt="chanteur">
+            <p>taylor swift</p>
+        </div>
+    </section>
+    <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
